@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+.container {
+display: flex;
+position: relative;
+
+}
+.kira-box {
+    width: 42ch;
+    margin-top: 2ch;
+    margin-bottom: 2ch;
+    max-height: 564px;
+}
+.clifford-box {
+    width: 90ch;
+    margin: 2ch;
+}
+.walters-box {
+    width: 40ch;
+    margin: 2ch;
+    margin-right: 0;
+}
+.medium-container {
+    width: 140ch;
+}
+.abrams-box {
+    width: 90ch;
+    margin: 2ch;
+    margin-right: 0;
+}
+.harmon-box {
+    width: 40ch;
+    margin: 2ch;
+    margin-top: 0;
+    padding-top: 2ch;
+}

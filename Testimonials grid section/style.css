@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --Moderateviolet: hsl(263, 55%, 52%);
+    --Verydarkgrayishblue: hsl(217, 19%, 35%);
+    --Verydarkblackishblue: hsl(219, 29%, 14%);
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(0, 0%, 81%);
+    --Lightgrayishblue: hsl(210, 46%, 95%);
+}
+body {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: var(--Lightgrayishblue);
+    max-height: 100%;
+    max-width: 100%;
+}
+.container {
+    margin: 3ch;
+    margin-bottom: 6ch;
+    margin-top: 6ch;
+}
+.clifford-box{
+    background-color: var(--Moderateviolet);
+    margin-bottom: 3ch;
+    border-radius: 10px;
+    color: var(--White);
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 28ch;
+    display: inline-block;
+}
+.wraper {
+    margin: 4ch;
+}
+.header {
+    display: flex;
+    margin-top: 3ch;
+    margin-bottom: 2ch;
+}
+.profile-picture {
+    border-radius: 50%;
+    margin-right: 2ch;
+    max-width: 30px;
+    max-height: 30px;
+    border: 2px solid hsla(0, 0%, 100%, 0.5);
+}
+.profile-name {
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+}
+.profile-name-w {
+    color:var(--Verydarkblackishblue);
+    letter-spacing: 1px;
+}
+.graduate {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 11px;
+    letter-spacing: .5px;
+}
+.graduate-w {
+    color: hsla(217, 30%, 14%, 0.5);
+    font-size: 11px;
+    letter-spacing: .5px;
+}
+.title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 2ch;
+    letter-spacing: .5px;
+    line-height: 2.5ch;
+}
+.title-w {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 2ch;
+    letter-spacing: .5px;
+    line-height: 2.5ch;
+}
+.sub-title {
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 2.5ch;
+    letter-spacing: .5px;
+}
+.sub-title-w {
+    color:  hsla(217, 30%, 14%, 0.5);
+    line-height: 2.5ch;
+    letter-spacing: .5px;
+}
+.walters-box {
+    background-color: var(--Verydarkgrayishblue);
+    margin-bottom: 3ch;
+    border-radius: 10px;
+    color: var(--White);
+    display: inline-block;
+}
+.harmon-box {
+    background-color: var(--White);
+    margin-bottom: 3ch;
+    border-radius: 10px;
+    color: var(--Verydarkblackishblue);
+    display: inline-block;
+}
+.harmon-box  {
+    color: var(--Verydarkblackishblue);
+}
+.abrams-box {
+    background-color: var(--Verydarkblackishblue);
+    margin-bottom: 3ch;
+    border-radius: 10px;
+    color: var(--White);
+    display: inline-block;
+}
+.kira-box {
+    background-color: var(--White);
+    margin-bottom: 3ch;
+    border-radius: 10px;
+    color: var(--Verydarkblackishblue);
+    display: inline-block;
+}
